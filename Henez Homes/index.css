@@ -1,0 +1,169 @@
+/* RESET CSS  */
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+     font-family: Arial, Helvetica, sans-serif;;
+}
+/* HEADER SECTION  */
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+nav > a {
+    padding: 0 2rem;
+    color: rgb(51, 51, 51);
+  
+}
+
+nav > a:hover{
+    border-bottom: 2px solid black;
+    padding-bottom: 4px;
+}
+
+.clients-btn {
+    padding:10px 15px;
+    border: 1px solid rgb(1, 125, 61);
+    background-color: white;
+    font-size: 1rem;
+    color:  rgb(51, 51, 51);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.hero-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-div > div > h1 {
+    margin: 2rem 0;
+    font-size: 3rem;
+}
+
+.hero-p {
+    width: 500px;
+    line-height: 27px;
+    color: rgb(119, 119, 119);
+    margin-bottom: 2.5rem;
+}
+
+
+
+.sold-properties {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+
+}
+
+.sold-properties > div > h1 {
+    margin: 2rem 0;
+    text-align: center;
+    color: green;
+    font-size: 2rem;
+}
+
+.start-btn {
+    background-color: rgb(8, 201, 8);
+    color: white;
+    padding: 6px 20px;
+    border-radius: 20px;
+ 
+}
+
+.object-div1 {
+    display: flex;
+    margin-top: 5rem;
+    margin-left: 15rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.object-div1 > div>div >h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+   
+}
+
+.object-div2 {
+    margin: 2rem 0;
+}
+
+.agent {
+    width:  517.537px;
+}
+
+.agent1 , .agent2 {
+    /* margin-bottom: 2rem; */
+    background-color:  rgb(240, 247, 238);
+    color:  rgb(33, 37, 41);
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5%;
+    
+}
+
+.agent2, .agent4 {
+   margin-left: 4rem;
+   
+}
+
+.agent3 , .agent4 {
+    background-color:  rgb(240, 247, 238);
+    color:  rgb(33, 37, 41);
+    display: inline-block;
+    margin-top: 3rem;
+    padding: 5px 10px;
+    border-radius: 5%;
+}
+
+.happy-client > img {
+    border-radius: 5%;
+}
+/* EASY SECTION  */
+
+.easy-section {
+    background-color: rgb(240, 247, 238);
+    width: 1092.6px;
+    height: 594.20px;
+    border-radius: 24px;
+    margin-left: 10rem;
+    margin-top: 10rem;
+}
+
+/* PROPERTY-SELECTION  */
+
+.choose {
+    display: flex;
+    align-items: center;
+    width:  446.663px;
+}
+
+span {
+    color:  rgb(255, 255, 255);
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
