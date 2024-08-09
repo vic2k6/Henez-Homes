@@ -18,15 +18,23 @@ header {
     margin-top: 1.5rem;
 }
 
+.ham-div {
+    display: none;
+    font-size: 2rem;;
+}
+
 nav > a {
     padding: 0 1rem;
     color: rgb(51, 51, 51);
-  
 }
 
 nav > a:hover{
     border-bottom: 2px solid black;
-    padding-bottom: 4px;
+    padding-bottom: 6px;
+}
+
+nav > a:active {
+    color: rgb(1, 125, 61);;;
 }
 
 .clients-btn {
@@ -37,6 +45,16 @@ nav > a:hover{
     color:  rgb(51, 51, 51);
     border-radius: 10px;
     cursor: pointer;
+    font-size: 1rem;
+}
+
+.clients-btn:hover {
+    background-color:  rgb(1, 125, 61);;
+    color: white;
+}
+
+.clients-btn:active {
+    opacity: 0.7;
 }
 
 .hero-section{
@@ -51,7 +69,19 @@ nav > a:hover{
     display: flex;
     flex-direction: column;
     padding-left: 5rem;
+}
+.hero-img {
+    width: 800.8px;
+    border-radius: 10%;
+}
 
+.com {
+    background-color: rgb(240, 247, 238);
+    width: 190.5px;
+    text-align: center;
+    padding: 5px;
+    height: 25px;
+    border-radius: 10px;
 }
 
 .hero-div > div > h1 {
@@ -88,18 +118,21 @@ nav > a:hover{
 .start-btn {
     background-color: rgb(8, 201, 8);
     color: white;
-    padding: 6px 20px;
+    padding: 10px 20px;
     border-radius: 20px;
- 
+    font-size: 1rem;
 }
 
-/* OBJECTIVE SECTION  */
+.start-btn:hover {
+    background-color: white;
+    color:  rgb(8, 201, 8);
+    border: 1px solid rgb(8, 201, 8);;
+} 
 
-/* .objective-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
+.start-btn:active {
+    background-color: green;
+    color: white;
+}
 
 .object-div1 {
     display: flex;
@@ -257,8 +290,23 @@ footer {
     bottom: 0;
     left: 0;
     width: 100px;
-    background-color: rgb(8, 201, 8);
-    color: white;
+    background-color: white;
+}
+
+.side-bar > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: end;
+    position: relative;
+    top: 50%;
+}
+
+.side-bar > div > i {
+    padding: 10px 0;
+    font-size: 1.2rem;
+    cursor: pointer;
+    /* color: grey; */
 }
 
 .contact-us {
@@ -272,7 +320,10 @@ footer {
    right: 11rem;
     box-shadow: 10px 5px 5px black;
     transition: opacity 0.15s;
+}
 
+.contact-us > i {
+    color: green;
 }
 
 .contact-us:hover {
