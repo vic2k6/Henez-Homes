@@ -7,7 +7,7 @@
 }
 
 body {
-     font-family: Arial, Helvetica, sans-serif;;
+     font-family: "inter", sans-serif;
     padding-left: 30px;
 }
 /* HEADER SECTION  */
@@ -69,10 +69,6 @@ nav > a:active {
     display: flex;
     flex-direction: column;
     padding-left: 6rem;
-}
-.hero-img {
-    width: 780.8px;
-    border-radius: 10%;
 }
 
 .com {
@@ -190,7 +186,7 @@ nav > a:active {
     width: 1092.6px;
     height: 594.20px;
     border-radius: 24px;
-    margin-left: 12rem;
+    margin-left: 13vw;
     margin-top: 10rem;
     display: flex;
     justify-content: center;
@@ -202,6 +198,7 @@ nav > a:active {
     font-size: 30px;
     font-weight: 500;
 }
+
 /* PROPERTY-SELECTION  */
 
 .choose {
