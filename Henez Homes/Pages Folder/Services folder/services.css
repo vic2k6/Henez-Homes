@@ -62,23 +62,26 @@ nav > a:active {
 
 /* PREMIUM-SECTION  */
 .premium-section {
-    margin-top:100px;
+    margin-top:5rem;
 }
 
 .premium {
     display: flex;
     justify-content: space-around;
+    align-items: flex-start;
 }
 
-.premium > div > p {
+.premium > .prem > p {
     display: block;
     font-size: 70px;
-    font-weight: 500;
+    font-weight: bold;
+    padding-left: 2vw;
 }
 
-.premium-text {
+.premium-text > p {
     width:  437.038px;
-    line-height: 27px;
+    line-height: 35px;
+    font-size: 1.5rem;
 }
 
 /* EASY SECTION  */
@@ -97,7 +100,7 @@ nav > a:active {
 .easy-div > p {
     width:  992.6px;
     font-size: 30px;
-    font-weight: 500;
+    font-weight: bold;
 }
 
 /* PROPERTY-SELECTION  */
@@ -118,7 +121,7 @@ nav > a:active {
 
 .choose-div  > h4 {
     font-size: 22px;
-    font-weight: 500;
+    font-weight: bold;
 }
 
 .property-div {

@@ -9,6 +9,7 @@
 body {
      font-family: "inter", sans-serif;
     padding-left: 30px;
+    padding-bottom: 200px;
 }
 /* HEADER SECTION  */
 header {
@@ -57,3 +58,79 @@ nav > a:active {
     opacity: 0.7;
 }
 
+.hero-div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 5rem;
+}
+
+.hero-div > div > p {
+    color: black;
+    font-size: 4rem;
+    font-weight: 700;
+    width:  655.55px;
+    padding-left: 2rem;
+}
+
+.fast {
+    line-height: 24px;
+    width:  420px;
+}
+
+.hero-div2 {
+    width: 437.038px;
+}
+/* SOLID PROPERTIES  */
+
+.sold-properties {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1rem;
+    /* margin-top: 2rem; */
+    text-align: start;
+}
+
+.sold-properties > div > h1 {
+    margin: 1rem 0;
+    text-align: start;
+    color: green;
+    font-size: 2rem;
+}
+
+/* INVESTMENT SECTION  */
+
+.investment-section {
+    margin-top: 3rem;
+    width: 1437.6px;
+    height:  618.875px;
+    border-left: 2px solid black;
+    margin-left: 10vw;
+    margin-top: 5rem;
+}
+
+.land {
+    padding-top: 10vh;
+    padding-left: 10vw;
+}
+
+.realtor-div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin-top: -145px;
+    margin-left: 12vw;
+}
+
+.realtor-div > p {
+    width: 430.138px;
+    line-height: 28.8px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.female-img {
+    height: 280.2px;
+    width: 537.662px;
+}
