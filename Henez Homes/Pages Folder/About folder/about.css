@@ -9,7 +9,6 @@
 body {
      font-family: "inter", sans-serif;
     padding-left: 30px;
-    padding-bottom: 200px;
 }
 /* HEADER SECTION  */
 header {
@@ -134,3 +133,197 @@ nav > a:active {
     height: 280.2px;
     width: 537.662px;
 }
+
+/* VISION-SECTION  */
+
+.vision-section {
+    background-color: rgb(250, 250, 250);
+    height: 688.1px;
+    width:  1437.6px;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.vision-section > div {
+    padding-left: 5vw;
+}
+
+.vision-section > div > h2 {
+    font-size: 32px;
+}
+.vision-section > div > p {
+    width:  442.5px;
+    margin: 1.5rem 0;
+    line-height: 24px;
+    color: rgb(119, 119, 119);
+}
+
+.vision-section > .div1 > h2 {
+    font-size: 32px;
+    margin: 1.5rem 0;
+}
+
+/* REASON WHY YOU SHOULD BUY FROM HENEZ */
+
+.reason-section {
+    margin-top: 5rem;
+    margin-left: 10vw;
+}
+
+.reason-section > h1 {
+    width:446.3px;
+    line-height: 40px;
+    margin-bottom: 4rem;
+    font-size: 28px;
+}
+
+
+/* PROPERTY-SELECTION  */
+
+.choose {
+    display: flex;
+    align-items: center;
+    width:  446.663px;
+}
+
+.choose-div {
+    display: flex;
+    align-items: flex-start;
+    width:  446.663px;
+    margin-bottom: 10px;
+}
+
+.choose-div  > h4 {
+    font-size: 22px;
+    font-weight: bold;
+    width:  281.388px;
+}
+
+.property-div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.property-div2 {
+    display: flex;
+    justify-content: space-evenly;
+   
+    margin-top: 4rem;
+    /* padding-left:2.52rem; */
+}
+
+span {
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+}
+
+
+/* FOOTER SECTION  */
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+    /* align-items: center; */
+}
+
+.foot-div1 , .foot-div2 , .foot-div3 {
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom: 3rem; */
+}
+
+.foot-div1  > a,.foot-div2 > h3 , .foot-div3   > h3 {
+    margin-bottom: 2rem;
+}
+
+.foot-div1  > a {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.foot-div1 > p {
+    width:  283.9px;
+    font-size: 1rem;
+    line-height: 24px;
+    color: rgb(33, 37, 41);
+}
+
+.foot-div2 > a ,  .foot-div3 > p{
+    margin-bottom: 15px;
+    color: rgb(51, 51, 51);
+}
+
+.foot-div3 > p > i {
+    padding-right: 1rem;
+}
+
+.side-bar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100px;
+    background-color: white;
+}
+
+.side-bar > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: end;
+    position: relative;
+    top: 50%;
+}
+
+.side-bar > div > a {
+    padding: 10px 0;
+    font-size: 1.2rem;
+    color: grey;
+}
+
+.copyright {
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+.contact-us {
+    background-color: white;
+    color: black;
+    font-size:  1.5rem;
+    padding: 10px 20px;
+    position: fixed;
+    border-radius: 15%;
+   bottom: 3rem;
+   right: 11rem;
+    box-shadow: 10px 5px 5px black;
+    transition: opacity 0.15s;
+}
+
+.contact-us > i {
+    color: green;
+}
+
+.contact-us:hover {
+    opacity: 0.6;
+}
+
+.contact-us:active {
+    background-color: green;
+    color: white;
+}
+
+
+
