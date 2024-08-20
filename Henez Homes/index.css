@@ -10,7 +10,10 @@ body {
      font-family: "inter", sans-serif;
     padding-left: 30px;
 }
+
+
 /* HEADER SECTION  */
+
 header {
     display: flex;
     justify-content: space-around;
@@ -92,8 +95,6 @@ nav > a:active {
     color: rgb(119, 119, 119);
     margin-bottom: 2.5rem;
 }
-
-
 
 .sold-properties {
     display: flex;
@@ -252,7 +253,7 @@ span {
 footer {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 4rem;
+    margin-top: 6rem;
     /* align-items: center; */
 }
 

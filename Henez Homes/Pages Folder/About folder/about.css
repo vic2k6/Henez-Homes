@@ -170,6 +170,7 @@ nav > a:active {
 .reason-section {
     margin-top: 5rem;
     margin-left: 10vw;
+    
 }
 
 .reason-section > h1 {
@@ -234,7 +235,7 @@ span {
 footer {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 4rem;
+    margin-top: 6rem;
     /* align-items: center; */
 }
 
