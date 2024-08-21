@@ -8,7 +8,7 @@
 
 body {
      font-family: "inter", sans-serif;
-    padding-left: 30px;
+     padding-left: 30px;
 }
 
 /* HEADER SECTION  */
@@ -97,7 +97,7 @@ nav > a:active {
 
 .estate-div3 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .estate-div3  > div > p {
@@ -112,20 +112,22 @@ nav > a:active {
 .price-section {
     margin-top: 5rem;
     display: flex;
-    justify-content: space-evenly;
-    /* margin-left: 10vw; */
+    justify-content: center;
+    align-items: center;
+
 }
 
-.price-img {
-    border: 1px solid red;
+.price-img >img  {
     width:  576px;
+    height: 499.425px;
+    border-radius: 5%;
 }
 
 .price-div {
     width:  576px;
     height: 499.425px;
     background-color: rgb(247, 251, 246);
-    border-radius: 20px;
+    border-radius: 5%;
     color:  rgb(33, 37, 41);
     padding: 53px;
 }
@@ -296,4 +298,12 @@ footer {
 .contact-us:active {
     background-color: green;
     color: white;
+}
+.fa-facebook {
+    color: blue;
+}
+
+.fa-instagram,
+.fa-envelope  {
+    color: red;
 }

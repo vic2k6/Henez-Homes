@@ -8,7 +8,11 @@
 
 body {
      font-family: "inter", sans-serif;
-    padding-left: 30px;
+    padding-left: 2rem;
+}
+
+main {
+    max-width: 1440px;
 }
 /* HEADER SECTION  */
 header {
@@ -101,25 +105,26 @@ nav > a:active {
 /* INVESTMENT SECTION  */
 
 .investment-section {
-    margin-top: 3rem;
-    width: 1437.6px;
-    height:  618.875px;
-    border-left: 2px solid black;
-    margin-left: 10vw;
     margin-top: 5rem;
+    /* width: 1437.6px;
+    height:  618.875px; */
+    /* border: 1px solid red; */
+    /* padding-left: 10vw; */  
+    width:  1437.6px;
 }
 
 .land {
     padding-top: 10vh;
-    padding-left: 10vw;
+    margin-left: 10vw;
 }
 
 .realtor-div {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: flex-end;
     margin-top: -145px;
     margin-left: 12vw;
+ 
 }
 
 .realtor-div > p {
@@ -169,19 +174,24 @@ nav > a:active {
 
 .reason-section {
     margin-top: 5rem;
-    margin-left: 10vw;
     
 }
 
 .reason-section > h1 {
-    width:446.3px;
+    width:646.3px;
     line-height: 40px;
     margin-bottom: 4rem;
     font-size: 28px;
+    padding-left: 8vw;
 }
 
 
 /* PROPERTY-SELECTION  */
+
+.invest-div {
+    /* border: 1px solid red; */
+    width:  1437.6px;
+}
 
 .choose {
     display: flex;
@@ -192,7 +202,7 @@ nav > a:active {
 .choose-div {
     display: flex;
     align-items: flex-start;
-    width:  446.663px;
+
     margin-bottom: 10px;
 }
 
@@ -327,4 +337,11 @@ footer {
 }
 
 
+.fa-facebook {
+    color: blue;
+}
 
+.fa-instagram,
+.fa-envelope  {
+    color: red;
+}
