@@ -17,6 +17,9 @@ header {
     align-items: center;
     margin-top: 1.5rem;
 }
+main {
+    max-width: 1440px;
+}
 
 .ham-div {
     display: none;
